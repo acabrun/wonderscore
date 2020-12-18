@@ -1,0 +1,30 @@
+{
+  "name": "wonderscore",
+  "version": "1.0.0",
+  "description": "A simple way to count point on 7 wonders duel",
+  "private": true,
+  "scripts": {
+    "dev": "webpack --watch",
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/acabrun/wonderscore.git"
+  },
+  "author": "Anthony Brun",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/acabrun/wonderscore/issues"
+  },
+  "homepage": "https://github.com/acabrun/wonderscore#readme",
+  "devDependencies": {
+    "css-loader": "^5.0.1",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.11.0",
+    "webpack-cli": "^4.2.0"
+  },
+  "dependencies": {
+    "lodash": "^4.17.20"
+  }
+}
